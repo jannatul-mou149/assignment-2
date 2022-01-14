@@ -11,14 +11,29 @@ body{
     margin:auto;
 }
 .main-button{
-    background-color:#E02C6D;
-    color: white;
+    background-color:#E02C6D ;
+    color: #fff ;
     font-family: 900;
     font-size: 18px;
     outline: none;
     border: none;
     border-radius: 40px;
     padding: 10px 35px;
+}
+/* ----------------see more styling---------- */
+.see-more-section{
+    float: right;
+    padding-bottom: 20px;
+}
+.see-more-section a{
+    text-decoration: none;
+}
+.see-more{
+    color: #E02C6D;
+    font-family: 900;
+    font-size: 18px;
+    outline: none;
+    border: none;
 }
 .main-button:hover{
     cursor: pointer;
@@ -66,7 +81,7 @@ footer{
     text-align: center;
     background-color: #0A0826;
     padding: 40px;
-    margin: 0;
+    margin-top: 30px;
 }
 footer .fab{
     color:white;
