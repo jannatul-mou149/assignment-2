@@ -6,10 +6,11 @@ body{
 }
 .container{
     border-radius: 5px;
-    width: 90%;
+    width: 870px;
     padding: 30px;
     margin-top: 21px;
     justify-content: center;
+    text-align: center;
 }
 .main-button{
     background-color:#E02C6D;
@@ -26,5 +27,31 @@ body{
 }
 .header-items{
     display: flex;
+    justify-content: center;
+}
+/* ----rating icon style---- */
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+/* -------collection part style------ */
+.collection-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px ;
+}
+.card{
+    height: 500px;
+    width: 310px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 22px ;
+    box-shadow: 5px 10px 18px #d3cece;
+    border-radius: 10px;
     justify-content: center;
 }
