@@ -8,6 +8,7 @@ body{
     border-radius: 5px;
     width: 900px;
     padding: 20px;
+    padding-left: 20px;
     margin:auto;
 }
 .main-button{
@@ -171,29 +172,7 @@ a{
     transform: translateY(-10px); 
     transition: all ease 0.3s; 
 } 
-@media(max-width:1060px){ 
-    .testimonial-box{ 
-        width:45%; 
-        padding: 30px; 
-    } 
-} 
-@media(max-width:790px){ 
-    .testimonial-box{ 
-        width:100%; 
-    } 
-    .testimonial-heading h1{ 
-        font-size: 1.4rem; 
-    } 
-} 
-@media(max-width:340px){ 
-    .box-top{ 
-        flex-wrap: wrap; 
-        margin-bottom: 10px; 
-    } 
-    .reviews{ 
-        margin-top: 10px; 
-    } 
-} 
+
 ::selection{ 
     color: #ffffff; 
     background-color: #252525;
@@ -217,6 +196,19 @@ a{
     .card , .header-items{
        flex-direction: column;
     }  
+    .box-top{ 
+        flex-wrap: wrap; 
+        margin-bottom: 10px; 
+    } 
+    .reviews{ 
+        margin-top: 10px; 
+    } 
+    .testimonial-box{ 
+        width:100%; 
+    } 
+    .testimonial-heading h1{ 
+        font-size: 1.4rem; 
+    } 
     
 } 
 /* -----------for tab-devices----------- */
@@ -230,6 +222,10 @@ a{
     .card, .header-items{
         flex-direction: column;
     }
+    .testimonial-box{ 
+        width:45%; 
+        padding: 30px; 
+    } 
     
 } 
 /* -----------for large-screen----------- */
@@ -237,6 +233,9 @@ a{
     .container{
         width: 100%;
     }
+    .testimonial-box-container{ 
+       padding-right: 80px;
+    } 
 } 
 /* ----------------ANIMATION------------ */
 .position{
@@ -245,7 +244,7 @@ a{
 .wrapper{
     position: relative;
     left: 50%;
-    top: 15%;
+    top: 25%;
     transform: translate(-50%, -50%);
 }
 h1{
