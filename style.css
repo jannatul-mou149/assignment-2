@@ -237,10 +237,12 @@ a{
         margin-top: 10px; 
     } 
     .testimonial-box{ 
-        width:100%; 
+        width:fit-content;
+        margin-left: 80%;
     } 
     .testimonial-heading h1{ 
-        font-size: 1.4rem; 
+        margin-left: 120px;
+        font-size: 1.3rem; 
     } 
 } 
 /* -----------for tab-devices----------- */
