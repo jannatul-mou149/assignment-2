@@ -124,6 +124,9 @@ body{
 h1{
     overflow: hidden;
 }
+.content{
+    color: #E02C6D;
+}
 .content span{
     transform: translate(-300px , 0) scale(0);
     animation: animate 3s forwards;
