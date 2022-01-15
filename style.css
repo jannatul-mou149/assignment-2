@@ -7,8 +7,6 @@ body{
 .container{
     border-radius: 5px;
     width: 70%;
-    /* padding: 20px;
-    padding-left: 20px; */
     margin:auto;
 }
 .main-button{
@@ -21,6 +19,36 @@ body{
     border-radius: 40px;
     padding: 10px 35px;
 }
+/*------- background image for camera --------*/
+.header-right{
+    width: 50%;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 3%;
+    display: flex;
+}
+.header-right img{
+    position: relative;
+    left: 10%;
+}
+/* ---------------ecommerce site logos------------ */
+.ecommers-site{
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 80%;
+    padding: 20px 0;
+    border-top: 1px solid #C0CCDA;
+    border-bottom: 1px solid #C0CCDA;
+    flex-wrap: wrap;
+}
+.ecommers-site>img{
+    width: 65px;
+    height: 40px;
+}
 /* ----------------see more styling---------- */
 .see-more-section{
     float: right;
@@ -31,10 +59,11 @@ body{
 }
 .see-more{
     color: #E02C6D;
-    font-family: 900;
+    font-weight: 900;
     font-size: 18px;
     outline: none;
     border: none;
+    padding-right:110px;
 }
 .main-button:hover{
     cursor: pointer;
@@ -214,7 +243,6 @@ a{
     .testimonial-heading h1{ 
         font-size: 1.4rem; 
     } 
-    
 } 
 /* -----------for tab-devices----------- */
 @media only screen and (min-width:688px) and (max-width:992px) {
