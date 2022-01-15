@@ -48,7 +48,7 @@ body{
     font-size: 12px;
 }
 .fa-star.filled{
-    color: #FFC014;
+    color: #FB8200;
 }
 .fa-star.empty{
     color: #AEAEAE;
@@ -74,6 +74,12 @@ body{
     box-shadow: 5px 10px 18px #d3cece;
     border-radius: 10px;
     justify-content: center;
+}
+.p-height{
+    line-height: 5px;
+    font-size: 14px;
+    color: #787885;
+    font-weight: 600;
 }
 /* ------------------testimonal styling------------- */
 a{ 
@@ -156,7 +162,7 @@ a{
     font-size: 0.8rem; 
 } 
 .reviews{ 
-    color: #f9d71c; 
+    color: #FB8200; 
 } 
 .box-top{ 
     display: flex; 
