@@ -219,7 +219,7 @@ a{
 /* -----------for tab-devices----------- */
 @media only screen and (min-width:688px) and (max-width:992px) {
     .container{
-        width: 100%;
+        width: 90%;
     }
     .header, .collection-card{
         grid-template-columns: repeat(2 , 1fr);
@@ -228,8 +228,9 @@ a{
         flex-direction: column;
     }
     .testimonial-box{ 
-        width:45%; 
-        padding: 30px; 
+        width:100%; 
+        padding: 30px;
+        margin-right: 30px;
     } 
     
 } 
