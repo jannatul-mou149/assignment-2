@@ -21,7 +21,6 @@ body{
 }
 /*------- background image for camera --------*/
 .header-right{
-    width: 50%;
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-position: center;
