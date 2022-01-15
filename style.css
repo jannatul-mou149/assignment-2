@@ -219,7 +219,6 @@ a{
     }  
     
 } 
-}
 /* -----------for tab-devices----------- */
 @media only screen and (min-width:688px) and (max-width:992px) {
     .container{
@@ -233,14 +232,12 @@ a{
     }
     
 } 
-}
 /* -----------for large-screen----------- */
 @media only screen and (min-width:993px) and (max-width:1312px) {
     .container{
         width: 100%;
     }
 } 
-}
 /* ----------------ANIMATION------------ */
 .position{
     position: absolute;
@@ -315,7 +312,7 @@ footer{
     text-align: center;
     background-color: #0A0826;
     padding: 40px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 footer .fab{
     color:white;
